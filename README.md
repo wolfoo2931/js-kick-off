@@ -42,7 +42,7 @@ mv ./src/project_name.js ./src/your_project_name.js
 ```
 ## 3. Package your App into a single JS File
 
-There are predifined tasks which package the code base into a single JS file. Just
+There are predefined tasks which package the code base into a single JS file. Just
 execute:
 
 ```bash
