@@ -8,9 +8,11 @@ This is a boilerplate project which configures:
 - **Browserify** to bundle everything (no webpack but simple and functional)
 - **Google Closure Compiler** for minimizing the bundled js file
 
+It's intended frontend projects which do not have server logic in the same code base.
+
 # Why this Boilerplate?
 
-While having a JavaScript break for 5 years a lot changed in this world. Two years ago, I wanted to start a new JavaScript project, not for learning purposes but to get a problem solved. So, this is the stack which worked for me after spending a few days of research.
+While having a JavaScript break for 5 years a lot changed in this world. Two years ago, I wanted to start a new JavaScript project, not for learning purposes but to get a problem solved. This is the stack which worked for me after spending a few days of research.
 
 There might be more modern solutions out there, but it seems to me that one have to spend quite a time to understand them. __Done is better than perfect.__
 
@@ -27,7 +29,7 @@ cd [project-name]
 ## 2. Rename the Project
 
 When you check out the project, the app is named "project-name". The following
-command will replace all occurrences of this name with `your-project-name` or `your_project_name`. Mind the `-` and `_` when putting in your favorit name.
+commands will replace all occurrences of this name with `your-project-name` or `your_project_name`. Mind the `-` and `_` when putting in your favorit name.
 
 ```bash
 sed -i '' 's/project-name/your-project-name/g' package.json
@@ -49,15 +51,15 @@ execute:
 npm run package
 ```
 
-you will find the packaged file in `assets/`. I am usally checking in the packaged file into the git repository, this way users can try out the app by simply open the assets/index.html file in their browser. They do not have to deal with the build process.
+You will find the packaged file in `assets/`. I am usally checking the packaged file into the git repository. This way users can try out the app by simply open the assets/index.html file in their browser. They do not have to deal with the build process.
 
 When executing:
 
 ```bash
-npm run  package:min
+npm run package:min
 ```
 
-The packaged file will be minimized.
+A minimized version of packaged file will be produced.
 
 
 When executing:
@@ -66,11 +68,11 @@ When executing:
 npm run package:watch
 ```
 
-The packaged file will be updated whenever something in the source base changes.
+The packaged file will be updated whenever something in the code base changes.
 
 ## 4. Run Unit Tests
 
-While I am developing I always run `npm run package:watch` in one terminal window. This will update the packaged file everytime I change something in the code base. The unit as well as the end to end tests will only test the packaged file.
+While I am developing, I always run `npm run package:watch` in one terminal window. This will update the packaged file everytime I change something in the code base. The unit as well as the end to end tests will only test the packaged file.
 
 Once `npm run package:watch` is running you simple have to execute:
 
@@ -80,10 +82,10 @@ npm test
 
 ## 5. Run End to End Tests
 
-Ensure `npm run package:watch` and `npm run webdriver:start` are running before executing the e2e test suite:
+Ensure `npm run package:watch` and `npm run webdriver:start` are running before executing the e2e test suite by typing:
 
 ```bash
 npm run test:browser
 ```
 
-This project includes an example e2e tests, so you can execute the command above and see the test running.
+This boilerplate project includes an example e2e tests, so you can execute the command above and see the test running.
