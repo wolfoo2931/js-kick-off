@@ -1,19 +1,19 @@
 {
-  "name": "declarativ-forms",
+  "name": "project-name",
   "version": "0.1.0",
   "description": "",
-  "main": "src/declarativ_forms.js",
+  "main": "src/project_name.js",
   "scripts": {
-    "package": "./node_modules/browserify/bin/cmd.js src/declarativ_forms.js -o assets/declarativ_forms.js.packaged.js",
-    "package:min": "./node_modules/browserify/bin/cmd.js src/declarativ_forms.js -o assets/declarativ_forms.js.packaged.js | sed '1s/^/var /' | node_modules/google-closure-compiler/cli.js  > assets/declarativ_forms.packaged.min.js",
-    "package:watch": "./node_modules/watchify/bin/cmd.js src/declarativ_forms.js -o assets/declarativ_forms.packaged.js -v",
+    "package": "./node_modules/browserify/bin/cmd.js src/project_name.js -o assets/project_name.js.packaged.js",
+    "package:min": "./node_modules/browserify/bin/cmd.js src/project_name.js -o assets/project_name.js.packaged.js | sed '1s/^/var /' | node_modules/google-closure-compiler/cli.js  > assets/project_name.packaged.min.js",
+    "package:watch": "./node_modules/watchify/bin/cmd.js src/project_name.js -o assets/project_name.packaged.js -v",
     "test:browser": "./node_modules/.bin/wdio wdio.conf.js",
     "test": "./node_modules/karma/bin/karma start",
     "webdriver:start": "webdriver-manager update && webdriver-manager start"
   },
   "repository": {
     "type": "git",
-    "url": "git@github.com:wolfoo2931/declarativ-forms.git"
+    "url": "git@github.com:wolfoo2931/project-name.git"
   },
   "keywords": [
     "modal",
@@ -22,9 +22,9 @@
   "author": "Oliver Wolf",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/wolfoo2931/declarativ-forms/issues"
+    "url": "https://github.com/wolfoo2931/project-name/issues"
   },
-  "homepage": "https://github.com/wolfoo2931/declarativ-forms#readme",
+  "homepage": "https://github.com/wolfoo2931/project-name#readme",
   "dependencies": {},
   "devDependencies": {
     "@wdio/cli": "5.4.17",

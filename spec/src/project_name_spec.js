@@ -1,4 +1,4 @@
-var DeclarativForms = require('./../../src/declarativ_forms.js');
+var DeclarativForms = require('./../../src/project_name.js');
 
 describe('declarativ-forms', () => {
     it('is a constructor function', () => {
