@@ -89,3 +89,8 @@ npm run test:browser
 ```
 
 This boilerplate project includes an example e2e tests, so you can execute the command above and see the test running.
+
+### 6. Open the App
+
+The idea is to just open `assets/index.hml` in the browser. Ensure `npm run package`
+has been executed.
