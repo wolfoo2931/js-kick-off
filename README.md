@@ -2,15 +2,15 @@
 
 This is a boilerplate project which configures:
 
-- Jasmine as a testing framework (one example unit test can be found in `spec/src/project_name_spec.js`)
-- Karma as a test runner
-- Webdriver.io for end to end tests (one example test can be found in `spec/features/hello_world_spec.js`)
-- Browserify to bundle everything (no webpack but simple and functional)
-- Google Closure Compiler for minimizing the bundled js file
+- **Jasmine.js** as a testing framework (one example unit test can be found in `spec/src/project_name_spec.js`)
+- **Karma** as a test runner
+- **Webdriver.io** for end to end tests (one example test can be found in `spec/features/hello_world_spec.js`)
+- **Browserify** to bundle everything (no webpack but simple and functional)
+- **Google Closure Compiler** for minimizing the bundled js file
 
 # Why this Boilerplate?
 
-While having a JavaScript break for 5 years a lot changed in this world. Two years ago, I wanted to start a new JavaScript project, not for learning purposes but to get problem solved. So, this is the stack which worked for me after spending a few days of research.
+While having a JavaScript break for 5 years a lot changed in this world. Two years ago, I wanted to start a new JavaScript project, not for learning purposes but to get a problem solved. So, this is the stack which worked for me after spending a few days of research.
 
 There might be more modern solutions out there, but it seems to me that one have to spend quite a time to understand them. __Done is better than perfect.__
 
