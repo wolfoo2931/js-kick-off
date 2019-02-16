@@ -8,7 +8,7 @@ This is a boilerplate project which configures:
 - [Browserify](http://browserify.org/) to bundle everything (no webpack but simple and functional)
 - [Google Closure Compiler](https://github.com/google/closure-compiler) for minimizing the bundled js file
 
-It's intended frontend projects which do not have server logic in the same code base.
+It's intended for frontend projects which do not have server logic in the same code base.
 
 ## Why this Boilerplate?
 
