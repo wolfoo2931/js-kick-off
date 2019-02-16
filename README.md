@@ -2,11 +2,11 @@
 
 This is a boilerplate project which configures:
 
-- **Jasmine.js** as a testing framework (one example unit test can be found in `spec/src/project_name_spec.js`)
-- **Karma** as a test runner
-- **Webdriver.io** for end to end tests (one example test can be found in `spec/features/hello_world_spec.js`)
-- **Browserify** to bundle everything (no webpack but simple and functional)
-- **Google Closure Compiler** for minimizing the bundled js file
+- [Jasmine](https://jasmine.github.io/) as a testing framework (one example unit test can be found in `spec/src/project_name_spec.js`)
+- [Karma](https://karma-runner.github.io/latest/index.html) as a test runner
+- [Webdriver.io](https://webdriver.io/) for end to end tests (one example test can be found in `spec/features/hello_world_spec.js`)
+- [Browserify](http://browserify.org/) to bundle everything (no webpack but simple and functional)
+- [Google Closure Compiler](https://github.com/google/closure-compiler) for minimizing the bundled js file
 
 It's intended frontend projects which do not have server logic in the same code base.
 
